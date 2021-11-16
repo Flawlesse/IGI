@@ -28,10 +28,13 @@ namespace WEB_953506_лавренович.Blazor.Server
             services.AddControllersWithViews();
             services.AddRazorPages();
 
+            //services.AddDbContext<ApplicationDbContext>(opt =>
+            //    opt.UseSqlServer(
+            //        Configuration.GetConnectionString("DefaultConnection")
+            //    )
+            //);
             services.AddDbContext<ApplicationDbContext>(opt =>
-                opt.UseSqlServer(
-                    Configuration.GetConnectionString("DefaultConnection")
-                )
+                opt.UseSqlite("Data Source=../../WEB_953506_лавренович/MyDB.db")
             );
         }
 

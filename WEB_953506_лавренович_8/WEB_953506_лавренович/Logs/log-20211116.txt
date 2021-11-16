@@ -1,0 +1,8 @@
+2021-11-16T22:14:11.3371659+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-11-16T22:14:11.3691699+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-11-16T22:14:11.3692559+03:00  [INF] Content root path: "D:\УЧЁБА\5сем\ИГИ\WEB_953506_лавренович_8\WEB_953506_лавренович" (b5d60022)
+2021-11-16T22:14:50.0972364+03:00  [INF] Request /Images/%D0%9C%D0%B0%D0%BA%D0%B0%D1%80%D0%BE%D0%BD%D1%8B.jpg returns status code 404 (8f5f6297)
+2021-11-16T22:14:58.0165014+03:00  [INF] Request /Images/%D0%9C%D0%B0%D0%BA%D0%B0%D1%80%D0%BE%D0%BD%D1%8B.jpg returns status code 404 (8f5f6297)
+2021-11-16T22:14:58.8652040+03:00  [INF] Request /Images/%D0%9C%D0%B0%D0%BA%D0%B0%D1%80%D0%BE%D0%BD%D1%8B.jpg returns status code 404 (8f5f6297)
+2021-11-16T22:15:08.7186612+03:00  [INF] Request /Images/%D0%9C%D0%B0%D0%BA%D0%B0%D1%80%D0%BE%D0%BD%D1%8B.jpg returns status code 404 (8f5f6297)
+2021-11-16T22:15:14.5255162+03:00  [INF] Request /Admin/Edit/2 returns status code 302 (6134a794)

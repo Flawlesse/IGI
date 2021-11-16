@@ -35,9 +35,12 @@ namespace WEB_953506_лавренович
         {
             services.AddScoped<Cart>(sp => CartService.GetCart(sp));
 
+            //services.AddDbContext<ApplicationDbContext>(options =>
+            //    options.UseSqlServer(
+            //        Configuration.GetConnectionString("DefaultConnection")));
             services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(
-                    Configuration.GetConnectionString("DefaultConnection")));
+                options.UseSqlite("Data Source=MyDB.db")
+            );
             services.AddDatabaseDeveloperPageExceptionFilter();
 
             //services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)

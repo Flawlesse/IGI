@@ -200,7 +200,6 @@
     },
     "lazyAssembly": null,
     "pdb": {
-      "WEB_953506_лавренович.Blazor.Shared.pdb": "sha256-HZPqbEUCPpZrX\/pwP3pyfT3EtYFlKr4MGRNwvUOMaOo=",
       "WEB_953506_лавренович.Blazor.Client.pdb": "sha256-HZKPBlZ2msuVPOtBcYQ4zP60EJgKOqaXHtqXD3zQbnM="
     },
     "runtime": {
