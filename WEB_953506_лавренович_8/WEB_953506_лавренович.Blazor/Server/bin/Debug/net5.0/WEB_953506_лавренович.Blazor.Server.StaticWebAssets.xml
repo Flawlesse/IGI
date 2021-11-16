@@ -1,0 +1,7 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="/" Path="D:\УЧЁБА\5сем\ИГИ\WEB_953506_лавренович_8\WEB_953506_лавренович.Blazor\Client\bin\Debug\net5.0\wwwroot\" />
+  <ContentRoot BasePath="/" Path="D:\УЧЁБА\5сем\ИГИ\WEB_953506_лавренович_8\WEB_953506_лавренович.Blazor\Client\obj\Debug\net5.0\scopedcss\bundle\" />
+  <ContentRoot BasePath="/" Path="D:\УЧЁБА\5сем\ИГИ\WEB_953506_лавренович_8\WEB_953506_лавренович.Blazor\Client\wwwroot\" />
+  <ContentRoot BasePath="/Identity" Path="C:\Users\Alice\.nuget\packages\microsoft.aspnetcore.identity.ui\5.0.11\staticwebassets\V4\" />
+  <ContentRoot BasePath="_content/WEB_953506_лавренович" Path="D:\УЧЁБА\5сем\ИГИ\WEB_953506_лавренович_8\WEB_953506_лавренович\wwwroot\" />
+</StaticWebAssets>

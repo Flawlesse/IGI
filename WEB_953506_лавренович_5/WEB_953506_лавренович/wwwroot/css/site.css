@@ -1,0 +1,15 @@
+﻿header, footer {
+    background-color: #c2081a;
+}
+
+.nav-color {
+    color: rgba(255,255,255,0.5)
+}
+
+.bg-dark {
+    background-color: #c2081a !important;
+}
+
+.btn-primary {
+    background-color: #690606;
+}

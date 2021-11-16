@@ -1,0 +1,12 @@
+D:\УЧЁБА\5сем\ИГИ\WEB_953506_лавренович_8\WEB_953506_лавренович.Blazor\Shared\bin\Debug\net5.0\WEB_953506_лавренович.Blazor.Shared.deps.json
+D:\УЧЁБА\5сем\ИГИ\WEB_953506_лавренович_8\WEB_953506_лавренович.Blazor\Shared\bin\Debug\net5.0\WEB_953506_лавренович.Blazor.Shared.dll
+D:\УЧЁБА\5сем\ИГИ\WEB_953506_лавренович_8\WEB_953506_лавренович.Blazor\Shared\bin\Debug\net5.0\ref\WEB_953506_лавренович.Blazor.Shared.dll
+D:\УЧЁБА\5сем\ИГИ\WEB_953506_лавренович_8\WEB_953506_лавренович.Blazor\Shared\bin\Debug\net5.0\WEB_953506_лавренович.Blazor.Shared.pdb
+D:\УЧЁБА\5сем\ИГИ\WEB_953506_лавренович_8\WEB_953506_лавренович.Blazor\Shared\obj\Debug\net5.0\WEB_953506_лавренович.Blazor.Shared.csproj.AssemblyReference.cache
+D:\УЧЁБА\5сем\ИГИ\WEB_953506_лавренович_8\WEB_953506_лавренович.Blazor\Shared\obj\Debug\net5.0\WEB_953506_лавренович.Blazor.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\УЧЁБА\5сем\ИГИ\WEB_953506_лавренович_8\WEB_953506_лавренович.Blazor\Shared\obj\Debug\net5.0\WEB_953506_лавренович.Blazor.Shared.AssemblyInfoInputs.cache
+D:\УЧЁБА\5сем\ИГИ\WEB_953506_лавренович_8\WEB_953506_лавренович.Blazor\Shared\obj\Debug\net5.0\WEB_953506_лавренович.Blazor.Shared.AssemblyInfo.cs
+D:\УЧЁБА\5сем\ИГИ\WEB_953506_лавренович_8\WEB_953506_лавренович.Blazor\Shared\obj\Debug\net5.0\WEB_953506_лавренович.Blazor.Shared.csproj.CoreCompileInputs.cache
+D:\УЧЁБА\5сем\ИГИ\WEB_953506_лавренович_8\WEB_953506_лавренович.Blazor\Shared\obj\Debug\net5.0\WEB_953506_лавренович.Blazor.Shared.dll
+D:\УЧЁБА\5сем\ИГИ\WEB_953506_лавренович_8\WEB_953506_лавренович.Blazor\Shared\obj\Debug\net5.0\ref\WEB_953506_лавренович.Blazor.Shared.dll
+D:\УЧЁБА\5сем\ИГИ\WEB_953506_лавренович_8\WEB_953506_лавренович.Blazor\Shared\obj\Debug\net5.0\WEB_953506_лавренович.Blazor.Shared.pdb

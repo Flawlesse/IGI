@@ -1,0 +1,106 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Identity;
+using WEB_953506_лавренович.Entities;
+
+namespace WEB_953506_лавренович.Data
+{
+    public class DbInitializer
+    {
+        public static async Task Seed(
+            ApplicationDbContext context,
+            UserManager<ApplicationUser> userManager,
+            RoleManager<IdentityRole> roleManager
+        )
+        {
+            // создать БД, если она еще не создана
+            context.Database.EnsureCreated();
+
+
+            // проверка наличия ролей
+            if (!context.Roles.Any())
+            {
+                var roleAdmin = new IdentityRole
+                {
+                    Name = "admin",
+                    NormalizedName = "admin"
+                };
+                // создать роль admin
+                await roleManager.CreateAsync(roleAdmin);
+            }
+            // проверка наличия пользователей
+            if (!context.Users.Any())
+            {
+                // создать пользователя user@mail.ru
+                var user = new ApplicationUser
+                {
+                    Email = "user@mail.ru",
+                    UserName = "user@mail.ru"
+                };
+                await userManager.CreateAsync(user, "123456");
+                // создать пользователя admin@mail.ru
+                var admin = new ApplicationUser
+                {
+                    Email = "admin@mail.ru",
+                    UserName = "admin@mail.ru"
+                };
+                await userManager.CreateAsync(admin, "ADmin123456");
+                // назначить роль admin
+                admin = await userManager.FindByEmailAsync("admin@mail.ru");
+                await userManager.AddToRoleAsync(admin, "admin");
+            }
+
+            if (!context.DishGroups.Any())
+            {
+                context.DishGroups.AddRange(
+                    new List<DishGroup>{
+                        new DishGroup {GroupName="Стартеры"},
+                        new DishGroup {GroupName="Салаты"},
+                        new DishGroup {GroupName="Супы"},
+                        new DishGroup {GroupName="Основные блюда"},
+                        new DishGroup {GroupName="Напитки"},
+                        new DishGroup {GroupName="Десерты"}
+                    }
+                );
+                await context.SaveChangesAsync();
+            }
+            // проверка наличия объектов
+            if (!context.Dishes.Any())
+            {
+                context.Dishes.AddRange(
+                    new List<Dish>{
+                        new Dish {
+                            DishName="Суп-харчо",
+                            Description="Название говорит само за себя",
+                            Calories=200, DishGroupId=3, Image="Суп.jpg"
+                        },
+                        new Dish {
+                            DishName="Борщ",
+                            Description="Более прожаренный харчо",
+                            Calories=330, DishGroupId=3, Image="Борщ.jpg"
+                        },
+                        new Dish {
+                            DishName="Котлета пожарская",
+                            Description="Это лотерея, ваши зубы против панировачных сухарей",
+                            Calories=635, DishGroupId=4, Image="Котлета.jpg"
+                        },
+                        new Dish {
+                            DishName="Макароны по-флотски",
+                            Description="Да, здесь и правда кусочки белорусского флота",
+                            Calories=524, DishGroupId=4, Image="Макароны.jpg"
+                        },
+                        new Dish {
+                            DishName="Компот",
+                            Description="С ионами цезия для повышенной сытности!",
+                            Calories=180, DishGroupId=5, Image="Компот.jpg"
+                        }
+                    }
+                );
+                await context.SaveChangesAsync();
+            }
+
+        }
+    }
+}
